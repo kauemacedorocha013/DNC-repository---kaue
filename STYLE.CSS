@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'inter';
+}
+
+.container-principal{
+    background-image: url(Imgs/Captura\ de\ tela\ 2024-09-18\ 170248.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 65vh;
+}
+
+.container-pricipal--conteudo{
+    color: white;
+    margin: 2% 15%;
+}
+
+.img-logo{
+    width: 10%;
+    padding: 20px;
+}
+
+.menu-suspenso{
+    display:grid;
+    grid-auto-flow: column;
+    background-color: #eaece5;
+    width: 100%;
+    columns: auto;
+}
+
+.menu-icons{
+    width: 45px;
+    margin: 50px 0px 50px 100px;
+}
+
+.menu-text{
+    display:flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.secao-video{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    align-items: center;  
+}
+
+#video{
+    margin: 50px 25px 50px 100px;
+}
+
+.video--conteudo{
+    gap: 10px;
+}
+
+.video--conteudo h1{
+    font-family: 'inter';
+    color: #247ba0;
+}
+
+.video--conteudo{
+    color: black;
+}
+
+#carrossel{
+    background-color: #247ba0;
+    padding:50px;
+}
+
+#title-carrossel{
+    color: white;
+    font-size: 32px;
+    text-align: center;
+}
+
+#div-cards{
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+}
+
+.card{
+    margin-left: 50px;
+}
+
+#seta-esquerda{
+    display: none;
+    cursor: pointer;
+}
+
+#seta-direita{
+    cursor: pointer;
+}
+
+#samanta{
+    display: none;
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition: 0.3s;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+form{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+input{
+    width: 350px;
+    height: 50px;
+    background-color:#eaece5;
+    border: none;
+    border-radius: 10px;
+}
+
+input::placeholder{
+    color: black;
+    padding: 15px;
+    font-size: 15px;
+}
+
+#botao-acesso{
+    width: 250px;
+    height: 45px;
+    border: none;
+    color: white;
+    background-color:#247ba0;
+    border-radius: 10px;
+    margin: 15px;
+    font-size: 15px;
+}
+
+#botao-acesso:hover{
+    background-color:#36b3e2;
+    transition: 0.3s;
+    transform:translateY(-7px);
+}
